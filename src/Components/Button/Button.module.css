@@ -1,0 +1,23 @@
+button{
+    background: none;
+    color: white;
+    font-size: 170%;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    margin-left: 15px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-radius: 50%;
+}
+button:focus{
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-radius: 50%;
+}
